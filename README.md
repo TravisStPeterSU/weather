@@ -49,13 +49,28 @@ A project analyzing rainfall trends between Seattle, Washington and Portland, Ma
 
 ## Analysis
 
-Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
+- Inspecting and cleaning both datasets
+  - Handling missing or incorrect values
+- Data Preparation
+  - Merge and tidy the data.
+- Exploratory data analysis and visualizations
+- Conclusion
+  - Comparison using descriptive statistics
 
 ---
 
 ## Results
 
-Include a short discussion of the findings and what they imply.
+- Findings
+  - Seattle's average daily precipitation was 0.11 inches, while Portlands was slightly higher at 0.13 inches.
+    - Seasonal trends show that Seattle's rainfall peaks in the winter months (November - January). Portland's rainfall is more evenly distributed throughout the year, with heavier single day rain in midsummer. 
+    - Statistical testing showed that the average daily precipiation differed significantly in 3 months
+        - January: Seattle had more rain on average than Portland.
+        - July and August: Portland had more rain on average than Seattle.
+    - Testing also showed that Seattle had a significantly higher proportion of rainy days in 8 months.
+        - January - May, and October - December
+- Conclusion
+    - Based on this analysis, Seattle, Washington experiences rain more frequently, but Portland, Maine recevies more rain overall. 
 
 ---
 
@@ -73,6 +88,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
-- Tools/libraries used
-- Tutorials or papers referenced
-- Inspiration or collaborators
+- Libraries
+  - pandas, numpy, matplotlib, seaborn, calendar, scipy, statsmodels.
